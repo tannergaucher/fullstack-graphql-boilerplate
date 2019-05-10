@@ -1,0 +1,69 @@
+:root {
+  --brand: #7d4cdb;
+  --accent-1: #6fffb0;
+  --accent-2: #fd6fff;
+  --accent-3: #81fced;
+  --accent-4: #ffca58;
+  --neutral-1: #00873d;
+  --neutral-2: #3d138d;
+  --neutral-3: #00739d;
+  --neutral-4: #a2423d;
+  --light-1: #f8f8f8;
+  --light-2: #f2f2f2;
+  --light-3: #ededed;
+  --light-4: #dadada;
+  --light-5: #dadada;
+  --light-6: #dadada;
+  --dark-1: black;
+  --dark-2: #555555;
+  --dark-3: #777777;
+  --dark-4: #999999;
+  --dark-5: #999999;
+  --dark-6: #999999;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* RESPONSIVE */
+
+/* mobile */
+@media (max-width: 600px) {
+  .responsive-margin-vertical {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* tablet */
+@media (min-width: 600px) {
+  .responsive-margin-vertical {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* desktop */
+@media (min-width: 1200px) {
+  .responsive-margin-vertical {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
