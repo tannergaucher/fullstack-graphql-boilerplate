@@ -5,7 +5,7 @@ export default function fieldset({ children }) {
     <fieldset
       style={{
         display: 'flex',
-        border: '2px solid var(--light-2)',
+        border: '',
         borderRadius: '2px',
       }}
     >

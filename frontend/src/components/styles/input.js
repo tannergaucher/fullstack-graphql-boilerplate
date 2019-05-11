@@ -4,7 +4,7 @@ export default function input(props) {
   return (
     <input
       style={{
-        border: '.1rem solid var(--light-4)',
+        border: '',
         borderRadius: '2px',
         marginTop: '.5rem',
         paddingTop: '.5rem',

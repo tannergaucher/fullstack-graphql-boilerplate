@@ -3,7 +3,7 @@ import { Link } from '@reach/router'
 
 export default function footer() {
   return (
-    <footer style={{ padding: '1rem', background: 'var(--light-2)' }}>
+    <footer style={{ padding: '1rem', background: '' }}>
       <Link to="/">Site Title</Link>
     </footer>
   )
