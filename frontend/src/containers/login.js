@@ -40,7 +40,6 @@ export default function Login() {
                   const res = await login()
                   client.writeData({ data: { isLoggedIn: true } })
                   localStorage.setItem('token', res.data.login.token)
-                  setValues({ email: '', password: '' })
                   navigate(`/`)
                 }}
               >

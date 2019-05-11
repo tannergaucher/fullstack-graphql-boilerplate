@@ -33,6 +33,7 @@ export const client = new ApolloClient({
 
 const data = {
   isLoggedIn: !!localStorage.getItem('token'),
+  userTheme: localStorage.getItem('theme'),
 }
 
 cache.writeData({ data })

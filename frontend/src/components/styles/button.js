@@ -7,7 +7,7 @@ export default function button(props) {
         paddingTop: '.5rem',
         paddingBottom: '.5rem',
         borderRadius: '4px',
-        border: 'none',
+        border: '1px solid black',
       }}
       {...props}
     />

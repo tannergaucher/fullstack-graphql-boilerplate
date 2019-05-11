@@ -3,6 +3,7 @@ import { Link } from '@reach/router'
 import { Query } from 'react-apollo'
 
 import Logout from '../containers/logout'
+import ToggleTheme from '../containers/toggleTheme'
 import { IS_LOGGED_IN } from '../apollo/graphql'
 
 export default function header() {
@@ -10,13 +11,14 @@ export default function header() {
     <header
       style={{
         padding: '1rem',
-        background: 'var(--light-2)',
+        background: '',
         display: 'flex',
         justifyContent: 'space-between',
         alignItems: 'center',
       }}
     >
       <Link to="/">Site Title</Link>
+      <ToggleTheme />
       <ToggleLogout />
     </header>
   )

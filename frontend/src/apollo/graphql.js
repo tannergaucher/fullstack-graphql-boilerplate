@@ -6,6 +6,12 @@ export const IS_LOGGED_IN = gql`
   }
 `
 
+export const GET_USER_THEME = gql`
+  query GET_USER_THEME {
+    userTheme @client
+  }
+`
+
 export const CURRENT_USER_QUERY = gql`
   query CURRENT_USER_QUERY {
     me {
